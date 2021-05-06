@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  
+  
+  
+  <p>
+    <mat-toolbar color="primary">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>ANGULAR-LARAVEL PORTFOLIO</span>
+      <span class="example-spacer"></span>
+      
+      
+    </mat-toolbar>
+  </p>
+  
+  <p>
+   
+  </p>
+  
+  <div class="uppercon">
+    <h1>
+      Ekweaga Charles
+    </h1>
+    <p>
+      Profound and Enthusiast Angular/Laravel developer
+    </p>
+  </div>
+  <div class="imgcont">
+    <img src="src/favicon.ico">
+    
+  </div>
+  <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item>Item 1</button>
+  <button mat-menu-item>Item 2</button>
+</mat-menu>
+<div class="skills">
+ <h2> My Knowledge so far</h2>
+<div>JAVASCRIPT <mat-progress-bar mode="determinate" value="50"></mat-progress-bar></div><br>
+<div>WORDPRESS<mat-progress-bar mode="determinate" value="30"></mat-progress-bar></div><br>
+<div>CLOUD COMPUTING <mat-progress-bar mode="determinate" value="20"></mat-progress-bar></div><br>
+<div>ANGULAR<mat-progress-bar mode="determinate" value="20"></mat-progress-bar></div><br>
+<div>LARAVEL<mat-progress-bar mode="determinate" value="20"></mat-progress-bar></div><br>
+</div>
+</html>
